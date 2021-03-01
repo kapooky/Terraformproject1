@@ -111,7 +111,7 @@ resource "aws_instance" "my-first-server" {
     network_interface_id = aws_network_interface.web-server-nic.id
 }
   tags = {
-    name = "faggot"
+    name = "hello"
   }
   user_data = <<-EOF
               #!/bin/bash
